@@ -2,3 +2,6 @@ cradle:
   cabal:
     - path: "app/Main.hs"
       component: "myhaskell:exe:myhaskell"
+
+    - path: "src"
+      component: "lib:myhaskell"
